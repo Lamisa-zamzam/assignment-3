@@ -1,11 +1,11 @@
-//
+
 
 
 function kilometerToMeter(num) {
     if (num <= 0) {
         return "You number is not valid, distance can't be negative."
     } else {
-        var meter = num * 1000; //1 kiometer = 1000 meter.
+        var meter = num * 1000; //1 kilometer = 1000 meter.
         return meter;
     }
 }
